@@ -1,9 +1,10 @@
 #!/bin/bash
 # Example of Dudette's Daily offer sniping bot
-# It will check if the last offer uploaded on Dexie has a price of 0.5 xch, which should be the last offer upload by Dudette, if not the last it will still snipe any offer at 0.5 xch
+# It will check every 15 seconds if the last offer uploaded on Dexie has a price of 0.5 xch, which should be the last offer upload by Dudette, if not the last it will still snipe any offer at 0.5 xch
 # Replace Fingerprint with yours
 # Setup the Fee
 # have this script run in the chia venv with wallet synced
+# TO DO : use websocket and get rid of the 'check every xx seconds'
 
 COLLECTION=col1d3xv8sehzp9y23lm4w9mgewe55kqk6zhct5l34u0eq8jpllcsw4s9acv87
 FINGERPRINT=
